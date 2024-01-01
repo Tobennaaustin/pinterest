@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+}
+#myBtn {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: rgba(98,87,179,.9);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+ul .logo{
+    color: red;
+    margin-right: 20px;
+    font-size: 30px;
+}
+ul .logo:hover{
+
+}
+ul .home{
+    background-color: black;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+ul .home a{
+    color: white;
+}
+ul .create{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+ul .create a{
+    color: black;
+}
+ul .input input{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(100, 148, 237, 0.144);
+    width: 60em;
+    outline: none;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+ul .input input:focus{
+    border: 3px solid lightskyblue;
+}
+ul .noty{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+}
+ul .noty:hover{
+    background-color: rgba(0, 0, 0, 0.105);
+    border-radius: 50px;
+}
+ul .message{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+}
+ul .message:hover{
+    background-color: rgba(0, 0, 0, 0.105);
+    border-radius: 50px;
+}
+ul .profile{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.105);
+    border-radius: 100px;
+    font-weight: 600;
+}
+ul .profile:hover{
+    padding: 10px;
+    
+}
+ul .icon{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+    /* width: 20px;
+    height: 20px;
+    align-items: center;
+    padding: 10px; */
+}
+ul .icon:hover{
+    background-color: rgba(0, 0, 0, 0.105);
+    border-radius: 50px;
+}
